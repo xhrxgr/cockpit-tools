@@ -48,6 +48,14 @@ src-tauri/native/macos-native-menu/.build/
 # Rust
 target/
 **/*.rs.bk
+
+# Debug artifacts (temp diag/progress scripts, not source)
+WORKBUDDY_WEBVIEW_PROGRESS.md
+build_state.txt
+diag_*.txt
+diag_see
+diag_see.txt
+showwin.ps1
 docs/plugin-architecture-proposal.md
 .aitasks
 .qoder/
